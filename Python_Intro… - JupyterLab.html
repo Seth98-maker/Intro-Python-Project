@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>JupyterLab</title><meta name="viewport" content="width=device-width,initial-scale=1">   <script id="jupyter-config-data" type="application/json">{"allow_hidden_files": false, "appName": "JupyterLab", "appNamespace": "lab", "appSettingsDir": "/Users/sethmilbourn/micromamba/envs/stenv/share/jupyter/lab/settings", "appUrl": "/lab", "appVersion": "4.4.4", "baseUrl": "/", "buildAvailable": true, "buildCheck": true, "cacheFiles": false, "copyAbsolutePath": false, "delete_to_trash": true, "devMode": false, "disabledExtensions": [], "exposeAppInBrowser": false, "extensionManager": {"can_install": true, "install_path": "/Users/sethmilbourn/micromamba/envs/stenv", "name": "PyPI"}, "extraLabextensionsPath": [], "federated_extensions": [{"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.e88e2f7663b907df5e7e.js", "name": "ipydatagrid"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.5cbb9d2323598fbda535.js", "name": "jupyterlab_pygments", "style": "./style"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.a36d13f475360b3d8988.js", "name": "bqplot"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.da0f2149411be83933cb.js", "name": "@jupyter-notebook/lab-extension", "style": "./style"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.35b6c65bd99dab37b910.js", "name": "@jupyter-widgets/jupyterlab-manager"}], "fullAppUrl": "/lab", "fullLabextensionsUrl": "/lab/extensions", "fullLicensesUrl": "/lab/api/licenses", "fullListingsUrl": "/lab/api/listings", "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js", "fullSettingsUrl": "/lab/api/settings", "fullStaticUrl": "/static/lab", "fullThemesUrl": "/lab/api/themes", "fullTranslationsApiUrl": "/lab/api/translations", "fullTreeUrl": "/lab/tree", "fullWorkspacesApiUrl": "/lab/api/workspaces", "ignorePlugins": [], "labextensionsPath": ["/Users/sethmilbourn/micromamba/envs/stenv/share/jupyter/labextensions", "/Users/sethmilbourn/Library/Jupyter/labextensions", "/Users/sethmilbourn/.local/share/jupyter/labextensions", "/usr/local/share/jupyter/labextensions", "/usr/share/jupyter/labextensions"], "labextensionsUrl": "/lab/extensions", "licensesUrl": "/lab/api/licenses", "listingsUrl": "/lab/api/listings", "mathjaxConfig": "TeX-AMS_HTML-full,Safe", "mode": "multiple-document", "nbclassic_enabled": false, "news": {"disabled": false}, "notebookStartsKernel": true, "notebookVersion": "[2, 16, 0]", "preferredPath": "/", "quitButton": true, "rootUri": "file:///Users/sethmilbourn/Research/My_repositories/Intro-Python-Project", "schemasDir": "/Users/sethmilbourn/micromamba/envs/stenv/share/jupyter/lab/schemas", "serverRoot": "~/Research/My_repositories/Intro-Python-Project", "settingsUrl": "/lab/api/settings", "staticDir": "/Users/sethmilbourn/micromamba/envs/stenv/share/jupyter/lab/static", "store_id": 0, "templatesDir": "/Users/sethmilbourn/micromamba/envs/stenv/share/jupyter/lab/static", "terminalsAvailable": true, "themesDir": "/Users/sethmilbourn/micromamba/envs/stenv/share/jupyter/lab/themes", "themesUrl": "/lab/api/themes", "token": "b7d6451086c20668a8f888b12ac7f52155638a44098fbd4e", "translationsApiUrl": "/lab/api/translations", "treePath": "python_notebook_intro_student.ipynb", "treeUrl": "/lab/tree", "userSettingsDir": "/Users/sethmilbourn/.jupyter/lab/user-settings", "virtualDocumentsUri": "file:///Users/sethmilbourn/Research/My_repositories/Intro-Python-Project/.virtual_documents", "workspace": "default", "workspacesApiUrl": "/lab/api/workspaces", "workspacesDir": "/Users/sethmilbourn/.jupyter/lab/workspaces", "wsUrl": ""}</script><link rel="icon" type="image/x-icon" href="/static/favicons/favicon.ico" class="idle favicon"><link rel="" type="image/x-icon" href="/static/favicons/favicon-busy-1.ico" class="busy favicon"> <script defer="defer" src="/static/lab/main.e0ad11baf75be894f6f6.js?v=e0ad11baf75be894f6f6"></script></head><body class="jp-ThemedContainer"><script>/* Remove token from URL. */
+  (function () {
+    var location = window.location;
+    var search = location.search;
+
+    // If there is no query string, bail.
+    if (search.length <= 1) {
+      return;
+    }
+
+    // Rebuild the query string without the `token`.
+    var query = '?' + search.slice(1).split('&')
+      .filter(function (param) { return param.split('=')[0] !== 'token'; })
+      .join('&');
+
+    // Rebuild the URL with the new query string.
+    var url = location.origin + location.pathname +
+      (query !== '?' ? query : '') + location.hash;
+
+    if (url === location.href) {
+      return;
+    }
+
+    window.history.replaceState({ }, '', url);
+  })();</script></body></html>
